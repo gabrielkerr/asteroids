@@ -12,3 +12,5 @@ Shoot - Space bar, S key, or down arrow
 Enhanced Controls:
 Teleport - Shift key
 Pause - P key
+
+Homing missile can be shot in the classic and the enhanced versions by pressing the F key after level 2!
