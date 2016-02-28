@@ -488,9 +488,9 @@ public class Controller implements KeyListener, ActionListener {
 		beatbox = new Beatbox();
 		// place all the new objects for the new level
 		if (enhanced && level % 5 != 0) {
-			//placeAsteroids();
+			placeAsteroids();
 		} else if (!enhanced) {
-			//placeAsteroids();
+			placeAsteroids();
 		}
 		placeShip();
 		Participant.expire(alien);
