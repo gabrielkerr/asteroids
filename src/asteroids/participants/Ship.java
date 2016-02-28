@@ -96,8 +96,8 @@ public class Ship extends Participant implements AsteroidDestroyer, AlienDestroy
 	 * fires a missile
 	 */
 	public void fireMissile(){
-		//HomingMissile h = new HomingMissile(controller.getAlien(), getXNose(), getYNose(), getDirection());
-		//controller.addParticipant(h);
+		Missile h = new Missile(getXNose(), getYNose(), getDirection(), controller);
+		controller.addParticipant(h);
 	}
 
 	/**

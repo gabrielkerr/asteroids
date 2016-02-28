@@ -136,7 +136,7 @@ public abstract class Participant {
 	/**
 	 * Adjusts the rotation so it is between 0 and 2 Pi
 	 */
-	private static double normalize(double angle) {
+	protected static double normalize(double angle) {
 		while (angle < 0) {
 			angle += 2 * Math.PI;
 		}
